@@ -1,0 +1,67 @@
+{
+    "name": "futuretek/yii2-dynagrid",
+    "description": "FTS DynaGrid",
+    "keywords": [
+        "yii2",
+        "extension",
+        "widget",
+        "dynamic",
+        "grid",
+        "columns",
+        "order",
+        "sort",
+        "visibility",
+        "hide",
+        "show",
+        "reorder"
+    ],
+    "type": "yii2-extension",
+    "license": "proprietary",
+    "homepage": "http://www.futuretek.cz/",
+    "authors": [
+        {
+            "name": "Lukas Cerny",
+            "email": "lukas.cerny@futuretek.cz"
+        }
+    ],
+    "support": {
+        "issues": "https://jira.futuretek.cz/browse/YII",
+        "wiki": "https://doc.futuretek.cz/display/YII",
+        "source": "https://git.futuretek.cz/projects/YII"
+    },
+    "require": {
+        "kartik-v/yii2-dynagrid": "dev-master"
+    },
+    "repositories": [
+        {
+            "url": "http://composer.futuretek.cz/repo/private/",
+            "type": "composer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "futuretek\\dynagrid\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "yii-config": {
+            "modules": {
+                "gridview": {
+                    "class": "\\kartik\\grid\\Module"
+                },
+                "dynagrid": {
+                    "class": "\\kartik\\dynagrid\\Module",
+                    "dbSettings": {
+                        "tableName": "dynagrid"
+                    },
+                    "dbSettingsDtl": {
+                        "tableName": "dynagrid_dtl"
+                    }
+                }
+            }
+        }
+    }
+}
