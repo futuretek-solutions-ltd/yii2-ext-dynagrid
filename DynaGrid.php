@@ -2,6 +2,6 @@
 
 namespace futuretek\dynagrid;
 
-class DynaGrid extends kartik\dynagrid\DynaGrid
+class DynaGrid extends \kartik\dynagrid\DynaGrid
 {
 }
