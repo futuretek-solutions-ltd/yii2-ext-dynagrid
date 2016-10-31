@@ -27,14 +27,14 @@
     "support": {
         "issues": "https://jira.futuretek.cz/browse/YII",
         "wiki": "https://doc.futuretek.cz/display/YII",
-        "source": "https://git.futuretek.cz/projects/YII"
+        "source": "https://git.futuretek.cz/projects/YII/repos/ext-dynagrid/browse"
     },
     "require": {
         "kartik-v/yii2-dynagrid": "dev-master"
     },
     "repositories": [
         {
-            "url": "http://composer.futuretek.cz/repo/private/",
+            "url": "https://composer.futuretek.cz/repo/private/",
             "type": "composer"
         }
     ],
@@ -44,9 +44,6 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        },
         "yii-config": {
             "modules": {
                 "gridview": {
