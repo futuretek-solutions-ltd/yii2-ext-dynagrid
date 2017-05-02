@@ -30,7 +30,7 @@
         "source": "https://git.futuretek.cz/projects/YII/repos/ext-dynagrid/browse"
     },
     "require": {
-        "kartik-v/yii2-dynagrid": "dev-master"
+        "kartik-v/yii2-dynagrid": "1.4.5"
     },
     "repositories": [
         {
