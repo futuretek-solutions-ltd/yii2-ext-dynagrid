@@ -30,12 +30,16 @@
         "source": "https://git.futuretek.cz/projects/YII/repos/ext-dynagrid/browse"
     },
     "require": {
-        "kartik-v/yii2-dynagrid": "1.4.5"
+        "kartik-v/yii2-dynagrid": "^1.4.8"
     },
     "repositories": [
         {
             "url": "https://composer.futuretek.cz/repo/private/",
             "type": "composer"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     ],
     "autoload": {
