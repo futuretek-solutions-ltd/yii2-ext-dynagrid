@@ -16,7 +16,7 @@
         "reorder"
     ],
     "type": "yii2-extension",
-    "license": "Apache",
+    "license": "Apache-2.0",
     "homepage": "http://www.futuretek.cz/",
     "authors": [
         {
