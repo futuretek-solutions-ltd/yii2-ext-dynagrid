@@ -16,7 +16,7 @@
         "reorder"
     ],
     "type": "yii2-extension",
-    "license": "proprietary",
+    "license": "Apache",
     "homepage": "http://www.futuretek.cz/",
     "authors": [
         {
@@ -24,19 +24,10 @@
             "email": "lukas.cerny@futuretek.cz"
         }
     ],
-    "support": {
-        "issues": "https://jira.futuretek.cz/browse/YII",
-        "wiki": "https://doc.futuretek.cz/display/YII",
-        "source": "https://git.futuretek.cz/projects/YII/repos/ext-dynagrid/browse"
-    },
     "require": {
         "kartik-v/yii2-dynagrid": "^1.4.8"
     },
     "repositories": [
-        {
-            "url": "https://composer.futuretek.cz/repo/private/",
-            "type": "composer"
-        },
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
